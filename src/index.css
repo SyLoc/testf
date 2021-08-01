@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Bodoni+Moda:wght@400;500;700&family=Roboto+Mono&display=swap');
+
+
+:root{
+  --text-color: #1f1f1f;
+  --text-color-2:#616161;
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.App{
+  width: 1440px;
+}

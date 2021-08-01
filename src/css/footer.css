@@ -1,0 +1,89 @@
+@import '../index.css';
+
+.footer{
+  height: 100px;
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.footer__left{
+  width: 50%;
+}
+
+
+.footer__left-list{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__left-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer__left-item::before{
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 50px;
+  background-color: #E7E7E7;
+  top: 0;
+  right: -50%;
+}
+
+.footer__left-item-title{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--text-color-2);
+}
+
+.footer__left-item-button{
+  margin-top: 9px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* ========================= /footer__right/==================== */
+
+.footer-right{
+  padding-left: 92px;
+  width: 50%; 
+  display: flex;
+  align-items: center;
+}
+
+.footer-right__img{
+  margin-right: 17px;
+}
+
+.footer-right__price{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--text-color);
+  margin-right: 74px;
+}
+
+.footer-right__btn button{
+  padding: 14px 40px;
+  color: var(--white-color);
+  background-color: #C6B67E;  
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.footer-right__btn button:hover{
+  opacity: .8;
+}
